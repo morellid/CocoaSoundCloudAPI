@@ -38,14 +38,6 @@ NSString * const SCAccountDidChangeUserInfo = @"SCAccountDidChangeUserInfo";
 
 @implementation SCAccount (Private)
 
-- (id)initWithOAuthAccount:(NXOAuth2Account *)anAccount;
-{
-    self = [super init];
-    if (self) {
-        oauthAccount = [anAccount retain];
-    }
-    return self;
-}
 
 - (NXOAuth2Account *)oauthAccount;
 {

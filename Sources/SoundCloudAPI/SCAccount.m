@@ -48,4 +48,13 @@ NSString * const SCAccountDidFailToGetAccessToken = @"SCAccountDidFailToGetAcces
     return self.oauthAccount.identifier;
 }
 
+- (id)initWithOAuthAccount:(NXOAuth2Account *)anAccount;
+{
+    self = [super init];
+    if (self) {
+        oauthAccount = [anAccount retain];
+    }
+    return self;
+}
+
 @end

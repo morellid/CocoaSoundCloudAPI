@@ -32,6 +32,6 @@ extern NSString * const SCAccountDidChangeUserInfoNotification;
 
 @property (nonatomic, readonly) NXOAuth2Account *oauthAccount;
 @property (nonatomic, copy) NSDictionary *userInfo;
-- (id)initWithOAuthAccount:(NXOAuth2Account *)account;
+//- (id)initWithOAuthAccount:(NXOAuth2Account *)account;
 
 @end

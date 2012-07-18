@@ -35,4 +35,6 @@ extern NSString * const SCAccountDidFailToGetAccessToken;
 
 @property (nonatomic, readonly) NSString *identifier;
 
+- (id)initWithOAuthAccount:(NXOAuth2Account *)account;
+
 @end
